@@ -1,0 +1,79 @@
+[
+    {
+        "id": 1,
+        "nombre": "Atari",
+        "contiene": "Doble carne, doble cheddar, doble panceta, lechuga, tomate y una chiminesa",
+        "precio": 6700,
+        "rutaImagen": "atari.jpg"
+    },
+    {
+        "id": 2,
+        "nombre": "Contra",
+        "contiene": "Doble carne, cheddar, lechuga, tomate, cebolla, pepinos, huevo y mayonesa",
+        "precio": 5700,
+        "rutaImagen": "Contra.jpg"
+    },
+    {
+        "id": 3,
+        "nombre": "Donkey Kong",
+        "contiene": "Doble carne, cheddar, huevo, lechuga, tomate, cebolla pepino y mayonesa",
+        "precio": 6500,
+        "rutaImagen": "DonkeyKong.jpg"
+    },
+    {
+        "id": 4,
+        "nombre": "Game Over",
+        "contiene": "Doble carne, doble cheddar, doble panceta, lechuga, pepinos y salsa big mac",
+        "precio": 6700,
+        "rutaImagen": "GameOver.jpg"
+    },
+    {
+        "id": 5,
+        "nombre": "Luigi",
+        "contiene": "Doble carne, provoleta, guacamole, pico de gallo, alioli y salsa picante casera",
+        "precio": 3000,
+        "rutaImagen": "luigi.jpg"
+    },
+    {
+        "id": 6,
+        "nombre": "Megaman",
+        "contiene": "Doble carne, queso roquefort, rúcula, cebolla caramelizada y alioli",
+        "precio": 6500,
+        "rutaImagen": "Megaman.jpg"
+    },
+    {
+        "id": 7,
+        "nombre": "Nes",
+        "contiene": "Doble carne, cheddar, panceta, salsa marinara, fried muzzarella",
+        "precio": 7200,
+        "rutaImagen": "Nes.jpg"
+    },
+    {
+        "id": 8,
+        "nombre": "Pac-Man",
+        "contiene": "Doble carne, doble cheddar, cebolla smasheada, mayonesa y ketchup",
+        "precio": 5500,
+        "rutaImagen": "Pac-Man.jpg"
+    },
+    {
+        "id": 9,
+        "nombre": "Sunset Riders",
+        "contiene": "Doble carne, doble cheddar, doble panceta, salsa barbacoa casera y cebolla",
+        "precio": 6700,
+        "rutaImagen": "SunSetRiders.jpg"
+    },
+    {
+        "id": 10,
+        "nombre": "Super Mario",
+        "contiene": "Doble carne, cheddar, panceta, lechuga, tomate, cebolla, pepino (nueva salsa)",
+        "precio": 6300,
+        "rutaImagen": "SuperMario.jpg"
+    },
+    {
+        "id": 11,
+        "nombre": "Tetris",
+        "contiene": "Doble carne, doble cheddar, cebolla picada, pepinos, ketchup y mostaza",
+        "precio": 5500,
+        "rutaImagen": "Tetris.jpg"
+    }
+]

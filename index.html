@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+    />
+    <link
+      rel="stylesheet"
+      type="text/css"
+      href="https://cdn.jsdelivr.net/npm/toastify-js/src/toastify.min.css"
+    />
+    <link rel="stylesheet" href="./style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Pixelify+Sans&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="icon" href="./media/logoOldInvertidaSinFondo.png" />
+
+    <title>Entrega Final JS</title>
+  </head>
+  <body>
+    <header>
+      <nav class="navBar">
+        <div class="animate__animated animate__backInLeft">
+          <a href="./index.html">
+            <img
+              src="./media/logoOldInvertidaSinFondo.png"
+              alt="Logo"
+              width="45"
+              height="auto"
+              class="d-inline-block align-text-center"
+            />
+          </a>
+        </div>
+        <div class="navLateral">
+          <a href="#">Menú</a>
+          <a href="#">Nosotros</a>
+          <a href="#">Contacto</a>
+          <button id="verOcultarInfo">Ver compra</button>
+        </div>
+      </nav>
+    </header>
+    <main>
+      <h1 id="titulo"></h1>
+      <div id="seccionVenta">
+        <input
+          type="text"
+          placeholder="Buscar por nombre o contenido"
+          id="inputNombre"
+        />
+        <button id="buscar">Buscar</button>
+        <div id="burgers"></div>
+      </div>
+
+      <div id="seccionCarrito" class="oculta">
+        <table>
+          <thead>
+            <tr>
+              <th>Burger ||</th>
+              <th>Precio unitario ||</th>
+              <th>Cantidad ||</th>
+              <th>Subtotal</th>
+            </tr>
+          </thead>
+          <tbody id="carrito"></tbody>
+          <tfoot>
+            <tr>
+              <td colspan="4">
+                <button id="comprar">Comprar</button>
+                <button id="vaciar">Vaciar carrito</button>
+
+                <hr />
+                <br />
+                <div id="mensajeCompra" class="oculta"></div>
+                <div id="mensajeVaciar" class="oculta"></div>
+
+              </td>
+            </tr>
+          </tfoot>
+        </table>
+      </div>
+      <div id="totalPagar"></div>
+    </main>
+    <hr />
+    <footer>
+      <nav>
+        <div>
+          <a href="../index.html">Old Fashioned Burgers</a>
+          <a href="./nosotros.html">Nosotros</a>
+          <a href="./fotos.html">Fotos</a>
+          <a href="./contacto.html">Contacto</a>
+          <a href="https://www.instagram.com/oldfashionedburgers/">Instagram</a>
+          <a href="https://api.whatsapp.com/send?phone=5493644228704"
+            >WhatsApp</a
+          >
+        </div>
+      </nav>
+      <p id="copyright"></p>
+    </footer>
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+    <script
+      type="text/javascript"
+      src="https://cdn.jsdelivr.net/npm/toastify-js"
+    ></script>
+    <script src="./script.js"></script>
+  </body>
+</html>
