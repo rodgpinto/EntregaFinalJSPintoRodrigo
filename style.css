@@ -156,6 +156,11 @@ button:hover {
 
 .burger>h3 {
     color: #fff;
+    font-weight: lighter;
+}
+.burger>h4{
+    color: #fff;
+    font-weight: lighter;
 }
 
 .burger>p {
